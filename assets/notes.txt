@@ -1,0 +1,62 @@
+* What is Javascript?
+- Javascript is one of the core technologies of the web, alongisde HTML & CSS.
+- It is a high-level, interpreted programming language that can be used on the 
+client side as well as the server-side with Node.js.
+- Interpreted means executed line by line rather than being compiled into machine 
+code first. So the code is executed on the fly making it a scripting language.
+
+* What is Javascript used for?
+- Used to manipulate the DOM, which is a tree-like structure of nodes and everything
+on the page is a node including every HTML tag, every attribute, every piece of
+text and so on. 
+- Javascript provides methods for dynamically changing the content or the styles 
+of the elements in the DOM.
+- It allows developers to create dynamic and interactive web pages that can respond
+to user actions. Those user actions are called events, so we can respond to mouse
+clicks, or drags, or hovers, keyboard events, form submissions, and just about
+anything you can think of that you can do in the browser. 
+- Making asynchronous requests is one of the most powerful uses of JS, and it's 
+used to interact with back-end servers whether it's your own server or a public
+API. We can make HTTP requests right from our code to fetch data or submit data,
+and this happens all behind the scenes without having to refresh the page. These
+are often used in what are called single page applications (SPAs) to dynamically
+load and update content without having to reload the entire page. 
+- Animations and effects can be created by using CSS transitions and animations,
+request animation frame method, and different libraries.
+- Data manipulation is the process of modifying or transforming data, and JS is a
+full-featured language with data structures like arrays. 
+- Data can be stored on the client or in the browser using things like local 
+storage, session storage, and cookies. 
+- SPAs are applications that load a single HTML page and dynamically update the 
+content without having to reload the entire page, this provides a seamless and 
+responsive user experience. You'd usually use a front-end framework for building
+SPAs like React, View, or Angular. 
+- JS can also be used on the server side with the Node.js runtime as well as Dino,
+so in addition to consuming APIs from the front end, we can also create APIs that 
+interact with databases on the back end. 
+
+* Why Learn Javascript?
+- Popularity: one of the most widely used languages. Many job opportunities.
+- Versatility: used for many different things, such as web pages, APIs, and 
+mobile/desktop applications.
+- Easy to learn: compared to other lower level languages, great to start with.
+
+* Environment Setup
+- For vanilla front end JS, all you need is a text editor and a browser.
+- VS Code is the most popular text editor for web development. 
+- Git is a version control system where we can create repositories with our code
+and push to third-party services like Github or Gitlab. 
+- Recommended extensions:
+    1. Live server gives you a mini dev server that you can run your files with, 
+    and it will reload in the browser whenever you make any changes. 
+    2. Prettier keeps your code nice and clean. Can automatically save or delete
+    semicolons. 
+
+* 17:38
+- When opening with live server, you can see "127.0.0.1" in the URL bar which is 
+our local host. It's called our loopback address and it runs on port 5500 by 
+default. 
+
+* 24:26
+- Every browser has developer tools. The "elements" tab is for HTML and CSS. The 
+console is where we'll see all of our front-end JS warnings and errors. 
