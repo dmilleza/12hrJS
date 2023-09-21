@@ -60,3 +60,30 @@ default.
 * 24:26
 - Every browser has developer tools. The "elements" tab is for HTML and CSS. The 
 console is where we'll see all of our front-end JS warnings and errors. 
+
+* 27:13
+- To clear console, just type "clear()" or reload the page
+
+* 27:44
+- Objects are common in just about every programming language, they're an entity 
+that has properties and methods. A property is like an attribute or a value where
+a method is a function that does something. 
+
+* Primitive Data Types
+- String: sequence of characters. Must be in quotes or backticks
+- Number: integers as well as floating-point numbers
+- Boolean: logical entity/ true or false
+- Null: intentional absence of any object value
+- Undefined: a variable not yet defined/assigned
+- Symbol: object that returns a unique Symbol
+- BigInt: numbers greater than number type can handle
+
+* Reference Types (Objects)
+- They are a non-primitive value referred when assigned to a variable.
+- Object literals, arrays, and functions are all reference types 
+
+* Static Typing vs Dynamic Types
+- JS is a dynamically-typed language, we do not explicitly define the types for 
+our variables. Many other languages are statically-typed.
+- TypeScript is a superset of Javascript, which allows static-typing. This can 
+make your code more verbose and less prone to errors.
