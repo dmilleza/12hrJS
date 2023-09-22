@@ -87,3 +87,14 @@ a method is a function that does something.
 our variables. Many other languages are statically-typed.
 - TypeScript is a superset of Javascript, which allows static-typing. This can 
 make your code more verbose and less prone to errors.
+
+* Data Types
+- Primitives are stored directly on the "stack" where it is accessed from
+- Objects are stored in the heap and accessed by reference
+
+* Type Conversion and Type Coercion 
+- Conversion or type casting is the process of explicitly converting a value from
+one type to another. 
+- Coercion usually refers to having the types changed implicitly. 
+- The reason why primitives have methods is because JS creates a temporary 
+wrapper of the associated type. 
