@@ -66,7 +66,7 @@ console is where we'll see all of our front-end JS warnings and errors.
 
 * 27:44
 - Objects are common in just about every programming language, they're an entity 
-that has properties and methods. A property is like an attribute or a value where
+that has properties and methods. A property is like an attribute or a value, where
 a method is a function that does something. 
 
 * Primitive Data Types
@@ -98,3 +98,10 @@ one type to another.
 - Coercion usually refers to having the types changed implicitly. 
 - The reason why primitives have methods is because JS creates a temporary 
 wrapper of the associated type. 
+- Coercion happens when you apply operators to values that have different types.
+
+* Strings
+- When we run a property or method on a string, the wrapper turns it into a new 
+object. 
+- Objects have something called a prototype and that's where the methods are 
+stored. 
