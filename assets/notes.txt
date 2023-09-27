@@ -105,3 +105,27 @@ wrapper of the associated type.
 object. 
 - Objects have something called a prototype and that's where the methods are 
 stored. 
+
+* Numbers 
+- There is no length property on numbers, so you have to turn it into a string.
+
+* Math Object
+- JS has a built in object called "Math" that has a bunch of methods on it that
+have to do with mathematical operations such as: finding the square root, round
+up/down, and a random method. 
+
+* Date and Time
+- JS has a date object that represents a point in time and lets you do some basic
+operations on it. 
+- The Unix timestamp is a system for describing a point in time, it's an integer 
+that represents the number of seconds that's elapsed/passed since the date of 
+January 1st, 1970. That timestamp is expressed in milliseconds. 
+
+* Date Object
+- There is an API for dates called "Intl.datetimeformat" and it's a powerful way 
+to format dates in a locale sensitive way. This is because different places 
+interpret dates and times in different ways. 
+
+* Arrays and Object literals
+- Arrays are a special type of object and a data structure in JS that stores 
+multiple values. Values are called elements and have an index number. 
