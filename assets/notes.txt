@@ -129,3 +129,5 @@ interpret dates and times in different ways.
 * Arrays and Object literals
 - Arrays are a special type of object and a data structure in JS that stores 
 multiple values. Values are called elements and have an index number. 
+- Nesting an array is having an array as an index inside of an array. 
+- An object literal is a common data structure that holds key/value pairs. 
