@@ -131,3 +131,39 @@ interpret dates and times in different ways.
 multiple values. Values are called elements and have an index number. 
 - Nesting an array is having an array as an index inside of an array. 
 - An object literal is a common data structure that holds key/value pairs. 
+
+* Javascript Object Notation
+- Lightweight data interchange format, a way of storing data in a simple readable 
+format. 
+- Several years ago, extensible markup language (XML) was the standard for 
+sending data or getting data from a server, but now JSON is the standard. 
+- The syntax is very similar to JS object literals. The keys have double quotes 
+around them. 
+- Usually a JSON file will have an array of JSON objects.
+- A JSON string is what you would send to a server.
+- Local storage is a way to store things on your client or in your browser, and 
+it can only store strings. 
+- You cannot use methods on a JSON string. If you want to access something, you 
+have to parse it first. 
+
+* Functions, Scope, Execution Context
+- When you declare a function, parameters are in the parentheses.
+- When you pass in a value for function execution, arguments are in the paretheses.
+- Invoking a function is when you run/call it.
+- Defining a function is when you declare it for what it does. 
+- Most of the time when we create functions, we're returning a value. 
+- The reason we return something is because we want to do something with that value.
+- Scope refers to the current area or the context of a specific piece of code.
+- Global variables will be accessible from anywhere.
+- Variable shadowing is when a function variable overrides a global variable that 
+shares the same name.
+- Var is function scoped, you can't access a var variable that's inside of a 
+function outside of the function. You can access var with other blocks like loops 
+and if statements.
+- Hoisting is the process of moving all the function and variable declarations to 
+the top of the current scope before the code is run. 
+- Arrow functions are more compact, have implicit returns, and they have a lexical
+scope.
+- Immediately invoked function expressions (IIFE) is used when you want to create
+and invoke a function at the same time. Used to avoid global scope pollution.
+- Recursion is when you call a function within itself. 
