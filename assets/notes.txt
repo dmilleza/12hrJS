@@ -167,3 +167,42 @@ scope.
 - Immediately invoked function expressions (IIFE) is used when you want to create
 and invoke a function at the same time. Used to avoid global scope pollution.
 - Recursion is when you call a function within itself. 
+- When you run any JS, a special environment is created to handle the transformation 
+and execution of code. This is called the execution context. It contains the 
+currently running code and everything that aids in its execution. 
+- There is a global execution context as well as a function execution context for 
+every function invoked. 
+- Execution context can be visualized as a box with two sides. The variable 
+environment stores all of your variables and functions as key:value pairs in memory.
+The other side is the thread of execution. JS is a single threaded language, a thread 
+is like a process, and your code is executed line by line on that thread. A thread
+has a call stack and memory heap.
+- Whenever an execution context is created, there's two phases:
+    * Memory creation phase:
+    1. Create global object 
+    2. Create this object and bind it to global object
+    3. Setup memory heap
+    4. Store functions and variables in global execution context and set to undefined.
+    * Execution phase:
+    1. Execute code line by line
+    2. Create a new execution context for each function call 
+- A call stack is a stack of functions to be executed, it manages execution contexts.
+Stacks are last in, first out. 
+- At the bottom of the call stack is the global execution context.
+
+* Logic and Control Flow
+- If statements are in just about every programming language. 
+- Switch statements are not as common as if statements, but if you have something
+that's five or more else if, then they are recommended. 
+- Anything not falsy will be truthy. Whenever you pass something into an if statement,
+it's always going to be coerced into a boolean. 
+- Strict equality (===) is preferred over loose equality (==) because it checks type. 
+- The ternary operator will be used a lot.
+
+* Loops and High Order Array Methods
+- HOAM are methods we can use on arrays that take in a function as an argument and we 
+can use these methods to loop through or iterate arrays and do specific operations on 
+each element. 
+- A loop is a control structure that provides a way to do iteration in programming. 
+- Iteration is a process where you repeat something over and over again until a 
+certain condition is met or not met, can help automate tasks. 
