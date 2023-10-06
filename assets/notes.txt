@@ -206,3 +206,14 @@ each element.
 - A loop is a control structure that provides a way to do iteration in programming. 
 - Iteration is a process where you repeat something over and over again until a 
 certain condition is met or not met, can help automate tasks. 
+- Infinite loops can happen if you mess up the condition or forget to increment. 
+- Break is useful where once you hit a certain condition, there's no need to keep 
+going and you want to break out of the loop. 
+- With continue, you can skip the rest of the code in a current iteration and then 
+continue to the next iteration. 
+- A while loop only has a condition in the parentheses.
+- Use a for loop over a while loop when you know the number of times that you want 
+the loop to run. 
+- Use a while loop when the number of times the loop will run is unknown. 
+- In a do while loop, the condition will always run at least once even if the 
+condition is false. 
