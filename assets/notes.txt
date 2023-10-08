@@ -217,3 +217,20 @@ the loop to run.
 - Use a while loop when the number of times the loop will run is unknown. 
 - In a do while loop, the condition will always run at least once even if the 
 condition is false. 
+- A for of loop is a newer way to loop through iterable objects like arrays, even 
+strings, maps, and sets. 
+- First choice of looping through arrays is the for each method. 
+- Use for in loop to get either the keys and/or the values of an object literal.
+- High order array methods take in a function as an argument, also known as a 
+callback function. In that callback, we can pass in a variable for each element in 
+that array. 
+- forEach just loops through and doesn't return anything. Usually used on an array
+of objects. 
+- filter returns a modified array, usually stored in a variable unlike forEach.
+- map returns an array just like filter, but we can modify anything we want and 
+return an array of anything we want. 
+- reduce reduces your array down to a single value. Useful if you have a shopping
+cart and want to get the total value
+
+* Document Object Model
+- 
