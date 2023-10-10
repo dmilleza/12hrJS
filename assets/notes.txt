@@ -233,4 +233,21 @@ return an array of anything we want.
 cart and want to get the total value
 
 * Document Object Model
-- 
+- The DOM is an interface that allows us to interact with webpage/HTML elements 
+dynamically via JS.
+- Includes tags, attributes, text nodes, etc.
+- Represented as a tree structure.
+- forEach does not work on HTMLCollections, you would first have to turn it into an 
+array using Array.from()
+- querySelector gives us a NodeList
+- You will see .innerText more often than .textContent
+- innerHTML will be used a lot
+- A NodeList is an array-like structure much like an HTMLCollection, except you can 
+use high order array methods on it. 
+- querySelectorAll() is the preferred over getElementsBy methods 
+
+* Traversing the DOM 
+- Any HTML tag on the page is an element
+- We use elements we've already selected to navigate or traverse to the children,
+the parent, the siblings, etc.
+
