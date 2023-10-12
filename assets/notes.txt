@@ -250,4 +250,15 @@ use high order array methods on it.
 - Any HTML tag on the page is an element
 - We use elements we've already selected to navigate or traverse to the children,
 the parent, the siblings, etc.
+- White space counts as text, so no textContent is a node
+- innerText is meant to get and change the text of an already existing element, it's
+better to create a node with the create text node method and then append it to the
+element.
+- outerHTML includes the HTML for that element it's on 
+- 99% of the time when you're changing classes and styles, it's going to be on some 
+kind of event.
+- classList gives us a DOMTokenList, which is similar to an array
 
+* Events
+- Any interaction that the user has with your web page, all the way down to the 
+actual loading of the page, is an event. 

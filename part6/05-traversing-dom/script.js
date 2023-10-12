@@ -16,8 +16,18 @@ parent.lastElementChild.innerText = 'child three'
 // get parent elements from a child
 const child = document.querySelector('.child')
 output = child.parentElement
-{/* <div class="parent"> */}
+{
+  /* <div class="parent"> */
+}
 
 // sibling elements
-const secondItem = document.querySelector('.child')
+const secondItem = document.querySelector('.child:nth-child(2)')
+
+output = secondItem
+output = secondItem.nextElementSibling.textContent
+// child three
+
+output = secondItem.previousElementSibling.textContent
+// child one
+
 console.log(output)
