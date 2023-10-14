@@ -262,3 +262,30 @@ kind of event.
 * Events
 - Any interaction that the user has with your web page, all the way down to the 
 actual loading of the page, is an event. 
+- Common events include: clicking on an element, typing into text field, hovering 
+over an element, submitting a form, closing a window, dragging an element, 
+resizing an element, etc.
+- You don't want your HTML cluttered with inline event listeners. 
+- With addEventListener, you can have multiple functions on the same event. 
+- The event object is available when we add an event listener and then run a function.
+
+* Forms
+-  If your form doesn't have an action attribute, it will submit to the same page. 
+You can prevent that using preventDefault.
+- You should have both front and back end form validations. 
+- If using FormData object, your input tags should have name attributes.
+
+* Event Bubbling and Delegation
+- With bubbling, the event is first captured and handled by the innermost element and 
+then propagated to outer elements. 
+- e.stopPropagation is used if a parent and child have the same event listener. 
+- e.stopImmediatePropagation is used if you have multiple handlers on a single event
+and you want to stop the event for all of them. 
+- e.currentTarget gives you what the even listener is on. 
+
+* Page Loading and Window Events
+- If you put the script tag in the head tag, you run JS before the page is loaded, 
+resulting in null properties. 
+- The different between load and DOMContentLoaded is that load waits for the entire
+page to load including all resources, where the latter runs as soon as the DOM is 
+parsed and loaded. 
