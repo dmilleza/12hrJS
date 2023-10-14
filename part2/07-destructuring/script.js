@@ -7,7 +7,6 @@ const quint = {
   firstName,
   lastName,
 };
-
 // { firstName: 'Yotsuba', lastName: 'Nakano' }
 
 // destructuring objects
