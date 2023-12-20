@@ -7,9 +7,9 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
 
     <link rel="stylesheet" href="./style.css" />
     <title>Shopping List</title>
@@ -17,6 +17,7 @@
   <body>
     <div class="container">
       <header>
+        <img src="./images/154629.png" alt="cart" width="80px" />
         <h1 id="app-title" class="form">Shopping List</h1>
       </header>
       <form id="item-form">
@@ -29,6 +30,7 @@
             placeholder="Enter Item"
           />
         </div>
+
         <div class="form-control">
           <button type="submit" class="btn">
             <i class="fa-solid fa-plus"></i> Add Item
@@ -44,34 +46,10 @@
         />
       </div>
       <ul id="item-list" class="items">
-        <li class="item">
-          Apples
-          <button class="remove-item btn-link text-red">
-            <i class="fa-solid fa-xmark"></i>
-          </button>
-        </li>
-        <li class="item">
-          Orange Juice
-          <button class="remove-item btn-link text-red">
-            <i class="fa-solid fa-xmark"></i>
-          </button>
-        </li>
-        <li class="item">
-          Oreos
-          <button class="remove-item btn-link text-red">
-            <i class="fa-solid fa-xmark"></i>
-          </button>
-        </li>
-        <li class="item">
-          Milk
-          <button class="remove-item btn-link text-red">
-            <i class="fa-solid fa-xmark"></i>
-          </button>
-        </li>
+        
       </ul>
       <button id="clear" class="btn-clear">Clear All</button>
     </div>
-    <a href="https://google.com">google</a>
     <script src="./script.js"></script>
   </body>
 </html>

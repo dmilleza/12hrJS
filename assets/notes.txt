@@ -289,3 +289,10 @@ resulting in null properties.
 - The different between load and DOMContentLoaded is that load waits for the entire
 page to load including all resources, where the latter runs as soon as the DOM is 
 parsed and loaded. 
+
+* LocalStorage / SessionStorage
+- property on the window interface that allows us to access a storage object
+- data is stored in the browser
+- data is stored as key/value pairs and values are only strings
+- LocalStorage does not expire while SessionStorage only lasts until the page is 
+closed

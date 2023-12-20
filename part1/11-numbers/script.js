@@ -1,7 +1,7 @@
 let num = 55;
 let x;
-// to get the length of a number, turn it into a string first
 
+// to get the length of a number, turn it into a string first
 x = num.toString().length;
 // 2
 

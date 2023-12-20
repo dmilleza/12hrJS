@@ -9,7 +9,7 @@ function logSocials(social) {
   console.log(social)
 }
 
-// don't want to include parantheses to execute
+// don't want to include parentheses to execute
 // socials.forEach(logSocials)
 // twitter
 // facebook
