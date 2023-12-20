@@ -29,10 +29,9 @@ let x = todos[0].name
 // get keys of an object and put them into an array
 x = Object.keys(todos[0])
 // [ 'id', 'name' ]
-
 // get length of an object, number of properties
-x = Object.keys(todos[0]).length
-// 2
+x = Object.keys(todos[2]).length
+// 3
 
 // get values of an object and put them into an array
 x = Object.values(todos[1])

@@ -21,8 +21,11 @@ function onSubmit2(e) {
   e.preventDefault()
 
   const formData = new FormData(form)
-  // const item = formData.get('item')
-  // const priority = formData.get('priority')
+  const item = formData.get('item')
+  // frw
+
+  const priority = formData.get('priority')
+  // 0
 
   // returns an iterator that allows us to loop through
   const entries = formData.entries()
@@ -30,5 +33,5 @@ function onSubmit2(e) {
   for (const entry of entries) {
     console.log(entry)
   }
-  // console.log(item, priority)
+  console.log(item, priority)
 }

@@ -40,4 +40,5 @@ function removeItem3(itemNumber) {
 // shorter way to do above function
 const removeItem4 = (itemNumber) =>
   document.querySelectorAll('li')[itemNumber - 1].remove()
-removeItem4(1)
+
+// removeItem4(1)
